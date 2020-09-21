@@ -1,0 +1,50 @@
+<form name="Quick_Inquiry" method="post"
+									action="https://my.exportersindia.com/catalog-enquiry.php"
+									onsubmit="return dynamic_form_validation(this);" enctype="multipart/form-data">
+									<input type="hidden" name="dyn_your_name" value="dynFrm_name" /><input type="hidden"
+										name="dyn_username" value="dynFrm_email" /><input type="hidden"
+										name="dyn_country" value="dynFrm_country" /><input type="hidden"
+										name="dyn_phone" value="dynFrm_phone" /><input type="hidden" name="storedb"
+										value="y" />
+									<div class="mb10px"><input type='text' name='dynFrm_name' value='' size='20'
+											class='input w120px' id='rp-3_please-enter-your-name.' placeholder="Name" />
+									</div>
+									<div class="mb10px"><input type='text' name='dynFrm_email' value='' size='20'
+											class='input w120px' id='rp-4_please-enter-email-id' placeholder="Email" />
+									</div>
+									<div class="mb10px"><input type='text' name='dynFrm_phone' value='' size='20'
+											class='input w120px' id='rp-5_please-enter-your-phone'
+											placeholder="Phone" /> </div>
+									<div class="mb10px">
+										<script>jQuery(window).load(function () { showcountrylist("Quick_Inquiry", "dynFrm_country", ""); })</script>
+										<select name="dynFrm_country" id="r_please-select-your-country">
+											<option value="">Select Country</option>
+										</select></div>
+									<div class="mb10px txt_ar"><textarea name='dynFrm_leave_a_message_for_us' cols="25"
+											rows="4" class='input w120px' placeholder="Leave a Message for us"
+											maxlength="1000"></textarea></div><span class="cb db"></span>
+									<p><input type="submit" name="submit" value="Send Message"
+											class="button" />&nbsp;&nbsp;&nbsp;<input type="hidden" name="username"
+											value="pathushetty89@gmail.com" /><input type="hidden" name="catalog_mi"
+											value="7416829" /> <input type="hidden" name="redirected_url"
+											value="http://www.prathaptraders.co.in/thanks.htm" /><input type="hidden"
+											name="referrer" value='' /> <input type="hidden" name="web_address"
+											value="http://www.prathaptraders.co.in" /> <input type="hidden"
+											name="enqtype" value="enquiry" /> <input type="hidden" name="form_id"
+											value="336" /> <input type="hidden" name="inq_thanks_msg"
+											value="Thank you for inquiry.&lt;br /&gt;&lt;br /&gt;We have received your business request. Our Sales Team will soon get in touch with you.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;" />
+										<input type="hidden" name="inq_thanks_title" value="Enquiry" /><input
+											type="hidden" name="formArr_Name" value="dynFrm_name~~your_name" /><input
+											type="hidden" name="formArr_Email" value="dynFrm_email~~username" /><input
+											type="hidden" name="formArr_Phone" value="dynFrm_phone~~phone" /><input
+											type="hidden" name="formArr_Country"
+											value="dynFrm_country~~country" /><input type="hidden"
+											name="formArr_Leave a Message for us"
+											value="dynFrm_leave_a_message_for_us~~message_detail" /><input type="hidden"
+											name="formValArr[dynFrm_name]" value="Please Enter Your Name.~~~3" /><input
+											type="hidden" name="formValArr[dynFrm_email]"
+											value="Please Enter Email ID~~~4" /><input type="hidden"
+											name="formValArr[dynFrm_phone]" value="Please Enter Your Phone~~~5" /><input
+											type="hidden" name="formValArr[dynFrm_country]"
+											value="Please Select Your Country~~~1" /></p>
+								</form>
